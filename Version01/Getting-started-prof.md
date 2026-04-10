@@ -1,93 +1,69 @@
-## Guía para el instructor
+# Gua para el Instructor
 
-### Bienvenida
+## Bienvenida
 
-¡Muchas gracias por entrarte a esta aventura juntos! Nos encantará tener tu
-input y sobretodo, tu experiencia para dar este taller. Queremos que sea muy 
-sencillo para todos nosotros trabajar juntos, y sobre todo, que los alumnos 
-se lleven la mejor experiencia.
+Gracias por involucrarte en esta aventura juntos. 
+Nos encantará tener tu input y sobre todo, tu experiencia para dar este taller.
 
-### Dinámica de las clases
+## Dinmica de las Clases
 
-La mayoría de nosotros, daremos clases durante una semana. Cada semana de HackerSchool
-se compone de 3 sesiones:
+Cada semana se compone de 3 sesiones:
 
-- 1 sesión de 3 horas los martes
-- 1 sesión de 3 horas los jueves
-- 1 sesión de 5 horas los sábados.
+| Da | Duracin | Formato |
+|----|---------|---------|
+| Martes | 3 horas | Teora + Prctica |
+| Jueves | 3 horas | Teora + Prctica |
+| Sbado | 5 horas | Repaso + Proyecto |
 
-### Formato sugerido para clases, entre semana:
+## Formato entre Semana (Martes/Jueves)
 
-- 15 minutos, de "Ciencia de Datos en la semana".
-- 1 hora y 15 minutos, de Clase 
-- 10 minutos de descanso
-- 1 hora y 15 minutos de Segunda Clase
-- 15 minutos de retrospectiva y cierre.
+- 15 min: Data Science en la semana
+- 1h 15min: Clase principal
+- 10 min: Descanso
+- 1h 15min: Segunda clase
+- 15 min: Retrospectiva y cierre
 
-### Formato sugerido para clase, sábado:
+## Formato Sbado
 
-- 30 minutos de revisión del Estado del Arte en el tema de la Semana
-- 1 hora y media de clase en el tópico
-- Media hora de retrospectiva semanal y material sugerido para profundizar
-- 2-3 horas de reto Kaggle.
+- 30 min: Estado del arte
+- 1h 30min: Clase en el tpico
+- 30 min: Retrospectiva semanal
+- 2-3 horas: Reto Kaggle
 
-### Estilo de las clases
+## Estilo de las Clases
 
-HackerSchool es una escuela práctica. Queremos traer esos conceptos y aplicarlos
-a Data Science. Lo hacemos, en una lista no completa y que puedes contribuir, mediante:
+HackerSchool es una escuela prctica. Traemos conceptos y los aplicamos a Data Science:
 
-- Clases centradas en Jupyter Notebooks: Esto permite a que alumno siga las actividades, 
-replique código e inclusive juege con él.
-- Por cada concepto, un ejemplo; Por cada tema, un ejercicio: De forma que cada 
-conocimiento
-- Sábados de Get Shit Done: Los sábados tenemos más tiempo, y eso no significa que
-tenga que ser una clase tediosa. Queremos que el sábado se use para repasar los 
-últimos conceptos de la clase (3 horas), y las otras 2 horas, trabajar en un proyecto
-que dure todo el curso a partir de 
+- **Notebooks centrados en Jupyter**: El alumno sigue, replica y experimenta
+- **Por cada concepto, un ejemplo**: Reforzamiento inmediato
+- **Por cada tema, un ejercicio**: Prctica guiada
+- **Sbados Get Shit Done**: Proyecto prctico
 
+## Estructura de un Notebook
+
+Cada notebook sigue el estndar profesional:
+
+```
+1. Ttulo - Tema de la sesin
+2. Objetivos - Qu aprender el estudiante
+3. Introduccin - Por qu es importante
+4. Cuerpo - Con diagramas ASCII
+   - Bsico (caso simple)
+   - Avanzado (caso real)
+5. Ejercicios - Prctica
+6. Resumen - Referencia rpida
+```
 
 ## Data Science Retreat
 
-Una semana con el proceso de Data Science de principio a fin.  Tomaremos un dataset,
-lo exploraremos juntos, le haremos trabajo de modelación y visualizaremos sus datos. 
-¡Una experiencia increíble para salir con todo al mundo a aplicarlo a cualquier otro
-conjunto de datos%%% Guía para el instructor
+Una semana con el proceso completo de Data Science:
+- Obtener un dataset
+- Explorarlo juntos
+- Modelado
+- Visualizacin
 
-### Bienvenida
+Experiencia integral para aplicar a cualquier conjunto de datos.
 
-¡Muchas gracias por entrarte a esta aventura juntos! Nos encantará tener tu
-input y sobretodo, tu experiencia para dar este taller. Queremos que sea muy 
-sencillo para todos nosotros trabajar juntos, y sobre todo, que los alumnos 
-se lleven la mejor experiencia.
+---
 
-## Dinámica de las clases
-
-La mayoría de nosotros, daremos clases durante una semana. Cada semana de HackerSchool
-se compone de 3 sesiones:
-
-- 1 sesión de 3 horas los martes
-- 1 sesión de 3 horas los jueves
-- 1 sesión de 5 horas los sábados.
-
-
-### Estilo de las clases
-
-HackerSchool es una escuela práctica. Queremos traer esos conceptos y aplicarlos
-a Data Science. Lo hacemos, en una lista no completa y que puedes contribuir, mediante:
-
-- Clases centradas en Jupyter Notebooks: Esto permite a que alumno siga las actividades, 
-replique código e inclusive juege con él.
-- Por cada concepto, un ejemplo; Por cada tema, un ejercicio: De forma que cada 
-conocimiento
-- Sábados de Get Shit Done: Los sábados tenemos más tiempo, y eso no significa que
-tenga que ser una clase tediosa. Queremos que el sábado se use para repasar los 
-últimos conceptos de la clase (3 horas), y las otras 2 horas, trabajar en un proyecto
-que dure todo el curso a partir de 
-
-
-### Data Science Retreat
-
-Una semana con el proceso de Data Science de principio a fin.  Tomaremos un dataset,
-lo exploraremos juntos, le haremos trabajo de modelación y visualizaremos sus datos. 
-¡Una experiencia increíble para salir con todo al mundo a aplicarlo a cualquier otro
-conjunto de datos!!
+*Material mejorado con estndar profesional - 2026*
