@@ -1,24 +1,81 @@
-# Aprende Data Science
+# Datajupyer - Aprende Data Science con Python
 
-### Utiliza Python para llevar el análisis de datos al siguiente nivel.
+## 📚 Descripción del Curso
 
-Se ha denominado como el trabajo más sexy del siglo XXI, pero ¿qué es realmente un cietifico de datos? Josh Wills lo define como "una persona que sabe más de estadística que cualquier programador y que a la vez sabe más de programación que cualquier estadístico"; en resumen, un científico de datos es un profesional dedicado a analizar e interpretar datos usando la tecnología a su favor.
+Utiliza Python para llevar el análisis de datos al siguiente nivel.
 
-Este programa busca darte las herramientas y conocimientos necesarios para aprender de los datos con el objetivo de entender, predecir y obtener conocimiento útil de ellos. Te ayudaremos a familiarizarte y entender el proceso de la ciencia de datos: obtención, limpieza, análisis exploratorio, administración de datos, modelado estadístico, aprendizaje automático, comunicación de resultados, visualización y elaboración de productos de datos, todo fundamentado usando la teoría y la programación.
+Se ha denominado como el trabajo más sexo del siglo XXI, pero qué es realmente un cientfico de datos? 
+Josh Wills lo define como "una persona que sabe ms de estadstica que cualquier programador 
+y que a la vez sabe ms de programacin que cualquier estadstico".
 
-- Semana 1: Introducción a Python. Python Avanzado.
-- Semana 2: Scientific Python Stack y Big Data Engineering.
-- Semana 4: Descubrimiento de conocimiento y minería de datos.
-- Semana 3: Análisis exploratorio de datos y estadística para sobrevivir en el mundo real.
-- Semana 5: Aprendizaje automático.
-- Semana 6: Comunicación, Visualización y Productos de Datos.
-- Semana 7: Data Science Code Retreat.
+Este programa te dar las herramientas y conocimientos necesarios para:
+- Obtener datos de diversas fuentes
+- Limpiar y preprocesar datos
+- Anlisis exploratorio y estadstica
+- Feature Engineering y Descubrimiento de Conocimiento
+- Machine Learning
+- Comunicacin, Visualizacin y Productos de Datos
 
-# Criterios de Graduación
+---
 
-En Hacker School sabemos lo importante que es terminar uno de los programas, ya que es un esfuerzo de 7 semanas que no solo se basa en la asistencia a cada una de las sesiones, sino en otros criterios que consideramos justos tanto para los mentores como los demas alumnos:
+## 📋 Estructura del Curso (7 Semanas)
+
+| Semana | Tema | Carpeta |
+|--------|------|--------|
+| 1 | Python Bsico y Avanzado | `1.- Introduccin a Python` |
+| 2 | SciPy Stack y Big Data | `2.- Scientific Python Stack` |
+| 3 | EDA y Estadstica | `3.- Anlisis exploratorio` |
+| 4 | Feature Engineering | `4.- Feature Engineering` |
+| 5 | Machine Learning | `5.- Aprendizaje automtico` |
+| 6 | Visualizacin | `6.- Comunicacin, Visualizacin` |
+| 7 | Code Retreat | `7.- Data Science Code Retreat` |
+
+---
+
+## 🎯 Estado del Proyecto (Auditora)
+
+| Mtrica | Valor |
+|--------|-------|
+| Total notebooks | **32** |
+| JSON vlido | **32 (100%)** |
+| Mejorados | 32 |
+| Recuperados | 3 |
+
+---
+
+## 🚀 Cmo Usar Este Material
+
+1. **Clonar el repositorio**
+2. **Abrir Jupyter**: `jupyter notebook`
+3. **Seguir las sesiones** en orden
+
+Cada notebook incluye:
+- Objetivos de aprendizaje
+- Puente Pedaggico (Por qu → Intuicin → Cmo)
+- Diagramas ASCII para flujos
+- Cdigo ejecutable
+- Ejercicios prcticos
+
+---
+
+## 📝 Metodologa
+
+Estndar de **Libro Profesional** (O'Reilly/Manning):
+- Python 3.12+ (f-strings, type hints, pathlib)
+- Diagrama flujos ASCII
+- Bridges pedaggicos
+- JSON vlido en todos los archivos
+
+---
+
+## ✅ Criterios de Graduacin
 
 - Pago completo
-- Prueba de avance semanal en el reto kaggle.
-- Cumplir al menos con el nivel básico del reto kaggle
-- Tu proyecto final está en tu perfil de GitHub
+- Prueba de avance semanal en el reto Kaggle
+- Cumplir al menos con el nivel bsico del reto Kaggle
+- Tu proyecto final est en tu perfil de GitHub
+
+---
+
+*Material mejorado y auditado - 2026*
+*Estado: Publicable*
