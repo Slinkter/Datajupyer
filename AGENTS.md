@@ -1,82 +1,56 @@
 # AGENTS.md - Datajupyer
 
-## Perfil del AI
+## Repositorio
 
-**Ingeniero de Software Senior y Data Scientist** con Maestría en Educación Tecnológica.
-Especialidad: Refactorización de repositorios obsoletos (Python 2.7/3.1) para convertirlos 
-en material educativo de nivel "Libro de Publicación Profesional" (estilo O'Reilly o Manning).
+Colección de notebooks educativos Python/Data Science en dos versiones:
+- `Estudio/` - Versión original
+- `Version02/` - Segunda versión (pandas, machine learning)
 
-## Misión Técnica
+## Reglas Críticas
 
-1. **Modernizar código**: Python 2.7/3.1 → Python 3.12+ (f-strings, Type Hinting, pathlib, generadores)
-2. **Optimizar**: Hardware limitado (MacBook 8GB) → usar generadores, pandas/numpy eficientes
-3. **Integridad**: JSON válido en todos los .ipynb
+### JSON en notebooks
+- **NUNCA** editar notebooks directamente (70% de probabilidad de romper JSON)
+- Siempre usar **Write tool** para recrear desde cero
+- Validar después: `python3 -c "import json; json.load(open('archivo.ipynb'))"`
 
-## Metodología Pedagógica
-
-Identificar "huecos de aprendizaje". Si el autor salta de básico a avanzado SIN explicar:
-- Crear "**Puente Pedagógico**": Por qué → Intuición → Cómo
-
-## Estándar Visual
-
-**DIAGRAMAS ASCII** para cada concepto de flujo/estructura:
-
-```
-      [ Input ] --> [ Transformación ] --> [ Output ]
-           ^              |                    |
-           +--------------+--------------------+
-```
-
-## Estructura de Notebook (Libro O'Reilly)
-
-Cada notebook DEBE tener:
-1. **Título claro** - # Tema
-2. **Objetivos** - 🎯Qué aprenderá
-3. **Introducción** - Por qué es importante
-4. **Cuerpo** - Con diagrams ASCII
-   - Básico (caso simple)
-   - Avanzado (caso real)
-5. **Ejercicios** - 📝 Práctica
-6. **Resumen** - 📋 Referencia rápida
-
-## Reglas de Ejecución
-
-### Para Cada Notebook:
-1. **Read** → Analizar contenido existente
-2. **Identificar** → Huecos pedagógicos + código obsoleto
-3. **Write** → Recrear con metodología
-4. **Validate** → json.load() NO debe fallar
-5. **Actualizar** → Progress en PLAN_EJECUCION.md
-
-### Si Falla JSON:
-```
+### Si falla JSON
+```bash
 git restore <archivo>
 ```
 
-### Tiempo Estimado:
-- 1 notebook pequeño: 15 min
-- 1 notebook mediano: 30 min
-
-## Flujo de Trabajo
+## Workflow
 
 ```
-1. Cargar perfil → Leer TAREAS_MEJORAS.md
-2. Analizar → Revisar contenido + código
-3. Priorizar → Empezar por nivel ⚠️Básico
-4. Recrear → Agregar diagrams + modernizar
-5. Validar → json.load()
-6. Guardar → Actualizar PLAN_EJECUCION.md
+1. Read notebook existente
+2. Identificar huecos pedagógicos + código obsoleto
+3. Recrear con metodología (Write tool)
+4. Validar JSON
+5. Actualizar PLAN_EJECUCION.md
 ```
+
+## Estándar
+
+Cada notebook debe incluir:
+- **Título claro** + **Objetivos** (🎯)
+- **Introducción** (por qué es importante)
+- **Puente Pedagógico**: Por qué → Intuición → Cómo
+- **Diagramas ASCII** para flujos
+- **Básico** → **Avanzado** (caso simple → caso real)
+- **Ejercicios** (📝)
+- **Resumen** (📋)
+
+## Código Moderno
+
+- Python 3.12+ (f-strings, type hints, pathlib)
+- Pandas/NumPy eficientes
+- Generadores para hardware limitado (MacBook 8GB)
+
+## Referencias
+
+- `TAREAS_MEJORAS.md` - Hallazgos y estándares aplicados
+- `PLAN_EJECUCION.md` - Progreso y estado de notebooks
+- `Version02/README.md` - Overview de Version02
 
 ---
 
-## Estado Actual (Auditoría)
-
-| Métrica | Valor |
-|---------|-------|
-| Total notebooks | 32 |
-| ✅ Válidos | 32 (100%) |
-| ⚠️ Recuperados | 3 |
-
-*Actualizado: 2026-04-10*
-*Perfil: Ingeniero Software Senior + Data Scientist + Educación Tecnológica*
+*Actualizado: 2026-04-18*
