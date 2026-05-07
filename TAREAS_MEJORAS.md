@@ -7,13 +7,13 @@ Mejorar los notebooks educativos de Datajupyer para que cumplan el estándar de
 
 ---
 
-## Estado: ✅ COMPLETADO
+## Estado: ✅ COMPLETADO (V01 & V02)
 
-| Métrica | Valor |
-|---------|-------|
-| Total notebooks | 32 |
-| ✅ JSON válido | 32 (100%) |
-| ⚠️ Recuperados | 3 |
+| Métrica | Version01 | Version02 | Total |
+|---------|-----------|-----------|-------|
+| Total notebooks | 32 | 64 | 96 |
+| ✅ JSON válido | 32 (100%) | 64 (100%) | 96 (100%) |
+| ⚠️ Recuperados | 3 | 0 | 3 |
 
 ---
 
