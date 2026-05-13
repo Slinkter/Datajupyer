@@ -1,0 +1,34 @@
+name: datajupyer-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.12
+  - jupyterlab
+  - IPython
+  - beautifulsoup4
+  - bokeh
+  - descartes
+  - folium
+  - geometryIO
+  - h5py
+  - matplotlib
+  - minepy
+  - networkx
+  - nltk
+  - numpy
+  - opencv-python
+  - pandas
+  - pint
+  - plotly
+  - psycopg2
+  - pydotplus
+  - pylab
+  - pyxdameraulevenshtein
+  - requests
+  - scikit-learn
+  - scipy
+  - shapely
+  - six
+  - tornado
+  - tweepy

@@ -43,18 +43,37 @@ Este programa te dar las herramientas y conocimientos necesarios para:
 
 ---
 
-## 🚀 Cmo Usar Este Material
+## 🚀 Cómo Usar Este Material
 
-1. **Clonar el repositorio**
-2. **Abrir Jupyter**: `jupyter notebook`
-3. **Seguir las sesiones** en orden
+El proyecto está diseñado para funcionar de manera reproducible ("out-of-the-box").
 
-Cada notebook incluye:
-- Objetivos de aprendizaje
-- Puente Pedaggico (Por qu → Intuicin → Cmo)
-- Diagramas ASCII para flujos
-- Cdigo ejecutable
-- Ejercicios prcticos
+1. **Clonar el repositorio:**
+   ```bash
+   git clone <repo-url>
+   cd Datajupyer/Version01
+   ```
+2. **Configurar el Entorno Virtual (Python 3.12+):**
+   * **Opción A (Recomendada - Conda):**
+     ```bash
+     conda env create -f environment.yml
+     conda activate datajupyer-env
+     ```
+   * **Opción B (Pip):**
+     ```bash
+     pip install -r requirements.txt
+     ```
+3. **Lanzar Jupyter:** 
+   ```bash
+   jupyter lab
+   ```
+4. **Seguir las sesiones** en orden (Carpetas 1 a 6).
+
+Cada notebook ha sido refactorizado con la estructura The Architect:
+- 🎯 **Objetivos de aprendizaje (Cues)**
+- 🌉 **Puente Pedagógico (Por qué → Intuición → Cómo)**
+- 📊 **Diagramas ASCII para flujos**
+- 🐍 **Código tipado y ejecutable (Type Hints, PEP 8)**
+- 📝 **Summary (Cornell Notes)**
 
 ---
 
